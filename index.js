@@ -10,6 +10,13 @@ $(document).keypress(function(){
     started=true;
   }
 });
+$(".start1").click(function(){
+  if(!started){
+    $("#level-title").text("level"+level);
+    nextSequence();
+    started=true;
+  }
+});
 /* detecting button clicks */
 $(".btn").click(function(){
   var user_choosencolor = $(this).attr('id');
@@ -35,6 +42,7 @@ function checkanswer(currentlevel){
       $("body").removeClass("game-over");
       }, 200);
     $("h1").text("game over press any key to restart !")
+    startover();
 
   }
 }
@@ -68,4 +76,9 @@ function animatepress(currentcolor){
   setTimeout(function(){
     $("#" + currentcolor).removeClass("pressed");
   }, 100);
+}
+function startover(){
+  level=0;
+  game_pattern=[];
+  started=false;
 }

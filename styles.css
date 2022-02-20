@@ -51,3 +51,13 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+/*.row{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+}*/
+.start1{
+  height: 70px;
+  width: 70px;
+  margin: 50px 0 0 20px;
+}
