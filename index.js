@@ -34,14 +34,14 @@ function checkanswer(currentlevel){
       }, 1000);
     }
   }else{
-     console.log("wrong!");
+     console.log("wrong!"); 
      var audio = new Audio("sounds/wrong.mp3");
      audio.play();
     $("body").addClass("game-over")
     setTimeout(function(){
       $("body").removeClass("game-over");
       }, 200);
-    $("h1").text("game over press any key to restart !")
+    $("h1").text("game over press any key to restart!")
     startover();
 
   }
