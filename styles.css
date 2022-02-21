@@ -51,13 +51,23 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+.fa-circle-play{
+ background-color: #011F3F;
+ border: 0;
+ margin: 0;
+ padding: 0;
+}
 /*.row{
   margin-left: auto;
   margin-right: auto;
   padding-left: 150px;
 }*/
 .start1{
-  height: 70px;
-  width: 70px;
-  margin: 50px 0 0 20px;
+  color: white ;
+  margin-top:80px;
+  padding: 0;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
 }
