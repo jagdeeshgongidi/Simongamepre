@@ -65,7 +65,7 @@ body {
 }
 @media screen and (orientation: portrait) {
   body{
-    margin-top: 13em;
+    margin-top: 10em;
     align-items: center;
   }
   .start1{
